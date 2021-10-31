@@ -1,0 +1,37 @@
+# Patroller
+# Moves in a box 
+
+ifenemy  28
+ifenemy  28
+MOVE 30
+ifenemy  28
+ifenemy  28
+LEFT 90
+ifenemy  28
+ifenemy  28
+MOVE 30
+ifenemy  28
+ifenemy  28
+LEFT 90
+ifenemy  289
+ifenemy  28
+MOVE 30
+ifenemy  28
+ifenemy  28
+LEFT 90
+ifenemy  28
+ifenemy  28
+MOVE 30
+ifenemy  28
+ifenemy  28
+LEFT 90
+ifenemy  28
+ifenemy  28
+Go 1
+infect
+LEFT 90
+LEFT 90
+LEFT 90
+LEFT 90
+Go 11
+

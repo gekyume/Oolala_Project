@@ -1,0 +1,2 @@
+Start F
+Rule F + F

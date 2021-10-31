@@ -1,0 +1,381 @@
+#ApplicationElements {
+  -fx-alignment: center;
+  -fx-spacing: 15px;
+}
+
+.button {
+  -fx-background-color: lightgray;
+  -fx-padding: 10px;
+}
+
+.button:hover {
+  -fx-background-color: white;
+}
+
+.button:pressed {
+  -fx-background-color: #F0F800;
+}
+
+#CodeInput {
+  -fx-pref-height: 400;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+}
+
+#CodeInputs {
+  -fx-spacing: 10;
+  -fx-alignment: center;
+}
+
+#EnvButtons {
+  -fx-spacing: 10;
+  -fx-alignment: center;
+}
+
+#LevelCountSlider {
+  -fx-block-increment: 1;
+  -fx-major-tick-unit: 1;
+  -fx-show-tick-labels: true;
+  -fx-show-tick-marks: true;
+  -fx-snap-to-ticks: true;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-background-color: E4717A;
+  -fx-min-height: 75px;
+  -fx-min-width: 150px;
+}
+
+#LevelCountText {
+  -fx-alignment: center;
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+  -fx-spacing: 20px;
+}
+
+#TurnDegreeText {
+  -fx-alignment: center;
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+  -fx-spacing: 20px;
+}
+
+#MoveDistanceText {
+  -fx-alignment: center;
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+  -fx-spacing: 20px;
+}
+
+#LineInputs {
+  -fx-spacing: 15;
+  -fx-alignment: center;
+}
+
+#MoveDistanceSlider {
+  -fx-block-increment: 1;
+  -fx-major-tick-unit: 5;
+  -fx-show-tick-labels: true;
+  -fx-show-tick-marks: true;
+  -fx-snap-to-ticks: true;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-background-color: ED9121;
+  -fx-min-height: 75px;
+  -fx-min-width: 150px;
+}
+
+#RadiusSlider {
+  -fx-block-increment: 1;
+  -fx-major-tick-unit: 5;
+  -fx-show-tick-labels: true;
+  -fx-show-tick-marks: true;
+  -fx-snap-to-ticks: true;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-background-color: #6D9BC3;
+  -fx-min-height: 75px;
+  -fx-min-width: 150px;
+
+}
+
+#SetId {
+  -fx-pref-columns: 40;
+}
+
+#Slider {
+  -fx-block-increment: 0.5;
+  -fx-major-tick-unit: 1;
+  -fx-show-tick-labels: true;
+  -fx-show-tick-marks: true;
+  -fx-background-color: #F7C9D2;
+  -fx-border-width: 2;
+  -fx-border-color: black;
+  -fx-padding: 20px;
+  -fx-min-width: 300px;
+  -fx-min-height: 150px;
+
+}
+
+#Screen {
+  -fx-fill: white;
+  -fx-stroke: black;
+  -fx-stroke-width: 5px;
+}
+
+#SpeciesButtons {
+  -fx-spacing: 5;
+  -fx-alignment: center;
+}
+
+#SpeciesSelector {
+  -fx-spacing: 5;
+  -fx-alignment: center;
+}
+
+#TurnDegreeSlider {
+  -fx-block-increment: 5;
+  -fx-major-tick-unit: 10;
+  -fx-show-tick-labels: true;
+  -fx-show-tick-marks: true;
+  -fx-snap-to-ticks: true;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-background-color: #E4D00A;
+  -fx-min-height: 75px;
+  -fx-min-width: 150px;
+}
+
+#PenText {
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+}
+
+#ImportFile {
+  -fx-wrap-text: true;
+  -fx-text-alignment: center;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-max-width: 100px;
+}
+
+#SaveFile {
+  -fx-wrap-text: true;
+  -fx-text-alignment: center;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-max-width: 100px;
+}
+
+#RunCode {
+  -fx-wrap-text: true;
+  -fx-text-alignment: center;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+  -fx-max-width: 100px;
+}
+
+#LocationText {
+  -fx-alignment: center;
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+  -fx-spacing: 20px;
+}
+
+#SetLocation {
+  -fx-background-color: #CAE00D;
+  -fx-border-width: 2px;
+  -fx-border-color: Black;
+  -fx-wrap-text: true;
+  -fx-max-width: 100px;
+  -fx-max-height: 50px;
+
+}
+
+#English {
+  -fx-border-color: black;
+  -fx-border-width: 5px;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-padding: 30px;
+  -fx-background-color: #43D5CB;
+  -fx-font-size: 50px;
+}
+
+#English:hover {
+  -fx-background-color: white;
+}
+
+#French {
+  -fx-border-color: black;
+  -fx-border-width: 5px;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-padding: 30px;
+  -fx-background-color: #9364C6;
+  -fx-font-size: 50px;
+}
+
+#French:hover {
+  -fx-background-color: white;
+}
+
+#Spanish {
+  -fx-border-color: black;
+  -fx-border-width: 5px;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-padding: 30px;
+  -fx-background-color: #BCAE6C;
+  -fx-font-size: 50px;
+}
+
+#Spanish:hover {
+  -fx-background-color: white;
+}
+
+#languageButtons {
+  -fx-spacing: 20px;
+  -fx-alignment: center;
+}
+
+#ChooseLanguageFont {
+  -fx-font-size: 30px;
+  -fx-font-family: "Courier";
+}
+
+#ChooseApplicationFont {
+  -fx-font-size: 30px;
+  -fx-font-family: "Courier";
+}
+
+#ApplicationText {
+  -fx-alignment: center;
+}
+
+
+#applicationButtons {
+  -fx-spacing: 20px;
+  -fx-alignment: center;
+}
+
+#LogoProgramming {
+  -fx-border-color: black;
+  -fx-border-width: 5px;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-padding: 30px;
+  -fx-background-color: #BCAE6C;
+  -fx-font-size: 30px;
+}
+
+#LogoProgramming:hover {
+  -fx-background-color: white;
+}
+
+#LSystem {
+  -fx-border-color: black;
+  -fx-border-width: 5px;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-padding: 30px;
+  -fx-background-color: #9364C6;
+  -fx-font-size: 30px;
+}
+
+#LSystem:hover {
+  -fx-background-color: white;
+}
+
+#Darwin {
+  -fx-border-color: black;
+  -fx-border-width: 5px;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-padding: 30px;
+  -fx-background-color: #43D5CB;
+  -fx-font-size: 30px;
+}
+
+#Darwin:hover {
+  -fx-background-color: white;
+}
+
+#LanguageRoot {
+  -fx-alignment: center;
+}
+
+
+#InfoText {
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+
+}
+
+#InfoTextBox {
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+  -fx-background-color: E45601;
+  -fx-border-width: 2;
+  -fx-border-color: black;
+  -fx-alignment: center;
+  -fx-max-height: 100;
+  -fx-spacing: 50px;
+  -fx-padding: 20px;
+}
+
+
+#ImageComboBox {
+  -fx-background-color: #EBD481;
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-min-width: 100px;
+  -fx-min-height: 50px;
+}
+
+#ImageComboBox:hover {
+  -fx-background-color: white;
+}
+
+#HomeText {
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+  -fx-wrap-text: true;
+}
+
+#SetHome {
+  -fx-background-color: #CAE00D;
+  -fx-border-width: 2px;
+  -fx-border-color: Black;
+  -fx-wrap-text: true;
+  -fx-max-width: 100px;
+  -fx-max-height: 50px;
+}
+
+#ScreenPicker {
+  -fx-alignment: center;
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+  -fx-spacing: 20px;
+}
+
+#ClearEnvironment {
+  -fx-border-color: black;
+  -fx-border-width: 2px;
+  -fx-border-radius: 5px;
+}
+
+#PenPicker {
+  -fx-alignment: center;
+  -fx-font-family: Verdana;
+  -fx-font-weight: bold;
+  -fx-spacing: 20px;
+}
+
+#CurrentSpeciesTab {
+  -fx-border-width: 2px;
+  -fx-border-color: black;
+}
+

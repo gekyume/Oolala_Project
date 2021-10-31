@@ -1,0 +1,16 @@
+# Pacer
+# Paces back and forth
+
+
+MOVE 30
+ifenemy 10
+LEFT 180
+ifenemy 10
+MOVE 30
+ifenemy 10
+LEFT 180
+ifenemy 10
+Go     1
+infect
+
+
